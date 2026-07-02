@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "env":{
+                "SPRING_DATASOURCE_URL":"jdbc:postgresql://localhost:5432/labresource",
+                "SPRING_DATASOURCE_USERNAME":"postgres",
+                "SPRING_DATASOURCE_PASSWORD":"vaibhav@123"
+            }
+        },
+        {
+            "type": "java",
+            "name": "LabResourceUtilizationPlatformGroup2Application",
+            "request": "launch",
+            "mainClass": "com.example.Lab.Resource.Utilization.Platform.Group2.LabResourceUtilizationPlatformGroup2Application",
+            "projectName": "Lab-Resource-Utilization-Platform-Group-2"
+        }
+    ]
+}
