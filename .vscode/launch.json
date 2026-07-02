@@ -6,21 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
+            "name": "LabResourceUtilizationPlatformApplication",
             "request": "launch",
-            "mainClass": "${file}",
-            "env":{
-                "SPRING_DATASOURCE_URL":"jdbc:postgresql://localhost:5432/labresource",
-                "SPRING_DATASOURCE_USERNAME":"postgres",
-                "SPRING_DATASOURCE_PASSWORD":"vaibhav@123"
-            }
+            "mainClass": "LabResourceUtilizationPlatformApplication",
+            "projectName": "Lab-Resource-Utilization-Platform-Group-2"
         },
         {
             "type": "java",
-            "name": "LabResourceUtilizationPlatformGroup2Application",
+            "name": "Current File",
             "request": "launch",
-            "mainClass": "com.example.Lab.Resource.Utilization.Platform.Group2.LabResourceUtilizationPlatformGroup2Application",
-            "projectName": "Lab-Resource-Utilization-Platform-Group-2"
+            "mainClass": "${file}"
         }
     ]
 }

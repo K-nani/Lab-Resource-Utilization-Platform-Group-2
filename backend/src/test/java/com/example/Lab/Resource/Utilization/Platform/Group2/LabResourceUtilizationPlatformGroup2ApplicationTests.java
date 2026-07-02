@@ -1,10 +1,10 @@
-package com.example.Lab_Resource_Utilization_Platform;
+package com.example.Lab.Resource.Utilization.Platform.Group2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LabResourceUtilizationPlatformApplicationTests {
+class LabResourceUtilizationPlatformGroup2ApplicationTests {
 
 	@Test
 	void contextLoads() {
